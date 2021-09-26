@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RPOs7mpcsgGs2a297O9hhmimQnZdy3SqsQk/4QE9j6VpIjNNYSOSF/qQeAkAeaUk36zPtrE/6iiq3H+3uppbDQ==",
+  "dgSpecHash": "iXi2m0m1xq+WPWU2QAoE3fierIfelfn0u7aVKUKvCEzEfHVmX/+S5imEuUfoanNRSpcuSWjf9UXDl6jwXtv1sg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DU004\\source\\repos\\AddChartAssignment\\Stock\\StockInfrastructure\\Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\DU004\\Documents\\GitHub\\AddToCartSolution\\Stock\\StockInfrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DU004\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.8\\microsoft.aspnetcore.authentication.jwtbearer.3.1.8.nupkg.sha512",
     "C:\\Users\\DU004\\.nuget\\packages\\microsoft.csharp\\4.3.0\\microsoft.csharp.4.3.0.nupkg.sha512",

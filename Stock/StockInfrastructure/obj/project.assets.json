@@ -3649,11 +3649,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DU004\\source\\repos\\AddChartAssignment\\Stock\\StockInfrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\DU004\\Documents\\GitHub\\AddToCartSolution\\Stock\\StockInfrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\DU004\\source\\repos\\AddChartAssignment\\Stock\\StockInfrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Users\\DU004\\Documents\\GitHub\\AddToCartSolution\\Stock\\StockInfrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\DU004\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DU004\\source\\repos\\AddChartAssignment\\Stock\\StockInfrastructure\\obj\\",
+      "outputPath": "C:\\Users\\DU004\\Documents\\GitHub\\AddToCartSolution\\Stock\\StockInfrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DU004\\AppData\\Roaming\\NuGet\\NuGet.Config",

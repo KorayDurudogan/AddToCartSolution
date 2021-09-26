@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ItgRZDiAi/AQWqcyKCHQnVvzxsdwdruxoboVznllLJzKrwmjDh7ohqxmHvzt6PSb1AyHTQQ2FeEdigyEVUD7CA==",
+  "dgSpecHash": "2mq19M9LSFA7WKEQ0IZYsDZSckyg9zOWf0Is4aORsqF72901H6PqkD0LtdFpogjsowPPltL99dBmHW5xw+ZWhA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DU004\\source\\repos\\AddChartAssignment\\Stock\\StockPresentation\\Presentation.csproj",
+  "projectFilePath": "C:\\Users\\DU004\\Documents\\GitHub\\AddToCartSolution\\Stock\\StockPresentation\\Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DU004\\.nuget\\packages\\aspnetcore.healthchecks.ui\\3.1.1\\aspnetcore.healthchecks.ui.3.1.1.nupkg.sha512",
     "C:\\Users\\DU004\\.nuget\\packages\\aspnetcore.healthchecks.ui.core\\3.1.1\\aspnetcore.healthchecks.ui.core.3.1.1.nupkg.sha512",

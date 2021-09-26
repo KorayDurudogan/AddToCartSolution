@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 namespace Infrastructure.DataSourceContext
 {
     /// <summary>
-    /// Interface for manipulating to data source json.
+    /// Interface for manipulating to data source CartItem.json.
     /// </summary>
     public interface ICartDataContext
     {

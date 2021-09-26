@@ -7169,11 +7169,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DU004\\source\\repos\\AddChartAssignment\\Stock\\StockPresentation\\Presentation.csproj",
+      "projectUniqueName": "C:\\Users\\DU004\\Documents\\GitHub\\AddToCartSolution\\Stock\\StockPresentation\\Presentation.csproj",
       "projectName": "Presentation",
-      "projectPath": "C:\\Users\\DU004\\source\\repos\\AddChartAssignment\\Stock\\StockPresentation\\Presentation.csproj",
+      "projectPath": "C:\\Users\\DU004\\Documents\\GitHub\\AddToCartSolution\\Stock\\StockPresentation\\Presentation.csproj",
       "packagesPath": "C:\\Users\\DU004\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DU004\\source\\repos\\AddChartAssignment\\Stock\\StockPresentation\\obj\\",
+      "outputPath": "C:\\Users\\DU004\\Documents\\GitHub\\AddToCartSolution\\Stock\\StockPresentation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DU004\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7190,14 +7190,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\DU004\\source\\repos\\AddChartAssignment\\Stock\\StockApplication\\Application.csproj": {
-              "projectPath": "C:\\Users\\DU004\\source\\repos\\AddChartAssignment\\Stock\\StockApplication\\Application.csproj"
+            "C:\\Users\\DU004\\Documents\\GitHub\\AddToCartSolution\\Stock\\StockApplication\\Application.csproj": {
+              "projectPath": "C:\\Users\\DU004\\Documents\\GitHub\\AddToCartSolution\\Stock\\StockApplication\\Application.csproj"
             },
-            "C:\\Users\\DU004\\source\\repos\\AddChartAssignment\\Stock\\StockDomain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\DU004\\source\\repos\\AddChartAssignment\\Stock\\StockDomain\\Domain.csproj"
+            "C:\\Users\\DU004\\Documents\\GitHub\\AddToCartSolution\\Stock\\StockDomain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\DU004\\Documents\\GitHub\\AddToCartSolution\\Stock\\StockDomain\\Domain.csproj"
             },
-            "C:\\Users\\DU004\\source\\repos\\AddChartAssignment\\Stock\\StockInfrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\DU004\\source\\repos\\AddChartAssignment\\Stock\\StockInfrastructure\\Infrastructure.csproj"
+            "C:\\Users\\DU004\\Documents\\GitHub\\AddToCartSolution\\Stock\\StockInfrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\DU004\\Documents\\GitHub\\AddToCartSolution\\Stock\\StockInfrastructure\\Infrastructure.csproj"
             }
           }
         }

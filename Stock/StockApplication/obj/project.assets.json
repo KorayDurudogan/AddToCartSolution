@@ -3852,11 +3852,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DU004\\source\\repos\\AddChartAssignment\\Stock\\StockApplication\\Application.csproj",
+      "projectUniqueName": "C:\\Users\\DU004\\Documents\\GitHub\\AddToCartSolution\\Stock\\StockApplication\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "C:\\Users\\DU004\\source\\repos\\AddChartAssignment\\Stock\\StockApplication\\Application.csproj",
+      "projectPath": "C:\\Users\\DU004\\Documents\\GitHub\\AddToCartSolution\\Stock\\StockApplication\\Application.csproj",
       "packagesPath": "C:\\Users\\DU004\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DU004\\source\\repos\\AddChartAssignment\\Stock\\StockApplication\\obj\\",
+      "outputPath": "C:\\Users\\DU004\\Documents\\GitHub\\AddToCartSolution\\Stock\\StockApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DU004\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3873,11 +3873,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\DU004\\source\\repos\\AddChartAssignment\\Stock\\StockDomain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\DU004\\source\\repos\\AddChartAssignment\\Stock\\StockDomain\\Domain.csproj"
+            "C:\\Users\\DU004\\Documents\\GitHub\\AddToCartSolution\\Stock\\StockDomain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\DU004\\Documents\\GitHub\\AddToCartSolution\\Stock\\StockDomain\\Domain.csproj"
             },
-            "C:\\Users\\DU004\\source\\repos\\AddChartAssignment\\Stock\\StockInfrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\DU004\\source\\repos\\AddChartAssignment\\Stock\\StockInfrastructure\\Infrastructure.csproj"
+            "C:\\Users\\DU004\\Documents\\GitHub\\AddToCartSolution\\Stock\\StockInfrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\DU004\\Documents\\GitHub\\AddToCartSolution\\Stock\\StockInfrastructure\\Infrastructure.csproj"
             }
           }
         }

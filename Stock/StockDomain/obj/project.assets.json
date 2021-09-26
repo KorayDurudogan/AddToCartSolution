@@ -92,11 +92,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DU004\\source\\repos\\AddChartAssignment\\Stock\\StockDomain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\DU004\\Documents\\GitHub\\AddToCartSolution\\Stock\\StockDomain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\DU004\\source\\repos\\AddChartAssignment\\Stock\\StockDomain\\Domain.csproj",
+      "projectPath": "C:\\Users\\DU004\\Documents\\GitHub\\AddToCartSolution\\Stock\\StockDomain\\Domain.csproj",
       "packagesPath": "C:\\Users\\DU004\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DU004\\source\\repos\\AddChartAssignment\\Stock\\StockDomain\\obj\\",
+      "outputPath": "C:\\Users\\DU004\\Documents\\GitHub\\AddToCartSolution\\Stock\\StockDomain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\DU004\\AppData\\Roaming\\NuGet\\NuGet.Config",

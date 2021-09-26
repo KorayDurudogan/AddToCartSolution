@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JhS9KWCtfQFSo960BCHlm3hT6GeCS8E21wHAqy5q3E+9iLI8RL3r06/7Yk0VOT5qJpoiVsb+hJR0WzlgtIbIXg==",
+  "dgSpecHash": "Kdr66B4j7jieS7g/hEA6ryCk5zOztkCFJlqrXt+vDJjWtpUHRo6W93vr+dL6mW0oMxzFoE9Gkztve764V6ZPkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DU004\\source\\repos\\AddChartAssignment\\Stock\\StockApplication\\Application.csproj",
+  "projectFilePath": "C:\\Users\\DU004\\Documents\\GitHub\\AddToCartSolution\\Stock\\StockApplication\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\DU004\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\DU004\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
