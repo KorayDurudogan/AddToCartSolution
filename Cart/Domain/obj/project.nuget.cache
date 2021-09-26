@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "KjB6jf9ouC0kpE6lEex2u46pOiB6VXhERVUpBz1SDjweh9TAZO5aLoOpMSqQoYwCBhZmHaiThZCJQ5ZM6TfN9A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DU004\\source\\repos\\AddChartAssignment\\Cart\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DU004\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\DU004\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

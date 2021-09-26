@@ -1,0 +1,9 @@
+C:\Users\DU004\source\repos\AddChartAssignment\Stock\StockInfrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
+C:\Users\DU004\source\repos\AddChartAssignment\Stock\StockInfrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
+C:\Users\DU004\source\repos\AddChartAssignment\Stock\StockInfrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\DU004\source\repos\AddChartAssignment\Stock\StockInfrastructure\bin\Debug\netcoreapp3.1\Infrastructure.deps.json
+C:\Users\DU004\source\repos\AddChartAssignment\Stock\StockInfrastructure\bin\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\DU004\source\repos\AddChartAssignment\Stock\StockInfrastructure\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\DU004\source\repos\AddChartAssignment\Stock\StockInfrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\DU004\source\repos\AddChartAssignment\Stock\StockInfrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\DU004\source\repos\AddChartAssignment\Stock\StockInfrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csprojAssemblyReference.cache

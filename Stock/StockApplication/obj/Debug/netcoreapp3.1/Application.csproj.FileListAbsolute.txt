@@ -1,0 +1,14 @@
+C:\Users\DU004\source\repos\AddChartAssignment\Stock\StockApplication\bin\Debug\netcoreapp3.1\Application.deps.json
+C:\Users\DU004\source\repos\AddChartAssignment\Stock\StockApplication\bin\Debug\netcoreapp3.1\Application.dll
+C:\Users\DU004\source\repos\AddChartAssignment\Stock\StockApplication\bin\Debug\netcoreapp3.1\Application.pdb
+C:\Users\DU004\source\repos\AddChartAssignment\Stock\StockApplication\obj\Debug\netcoreapp3.1\Application.csprojAssemblyReference.cache
+C:\Users\DU004\source\repos\AddChartAssignment\Stock\StockApplication\obj\Debug\netcoreapp3.1\Application.AssemblyInfoInputs.cache
+C:\Users\DU004\source\repos\AddChartAssignment\Stock\StockApplication\obj\Debug\netcoreapp3.1\Application.AssemblyInfo.cs
+C:\Users\DU004\source\repos\AddChartAssignment\Stock\StockApplication\obj\Debug\netcoreapp3.1\Application.csproj.CoreCompileInputs.cache
+C:\Users\DU004\source\repos\AddChartAssignment\Stock\StockApplication\obj\Debug\netcoreapp3.1\Application.dll
+C:\Users\DU004\source\repos\AddChartAssignment\Stock\StockApplication\obj\Debug\netcoreapp3.1\Application.pdb
+C:\Users\DU004\source\repos\AddChartAssignment\Stock\StockApplication\bin\Debug\netcoreapp3.1\Domain.dll
+C:\Users\DU004\source\repos\AddChartAssignment\Stock\StockApplication\bin\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Users\DU004\source\repos\AddChartAssignment\Stock\StockApplication\bin\Debug\netcoreapp3.1\Domain.pdb
+C:\Users\DU004\source\repos\AddChartAssignment\Stock\StockApplication\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Users\DU004\source\repos\AddChartAssignment\Stock\StockApplication\obj\Debug\netcoreapp3.1\Application.csproj.CopyComplete
