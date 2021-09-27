@@ -18,7 +18,7 @@ namespace Application
 
             CreateMap<AddCartRequest, StockUpdateQueryRequest>();
 
-            CreateMap<StockUpdateQueryResponse, AddCartResponseDto>();
+            CreateMap<StockUpdateQueryResponse, AddCartResponse>();
         }
     }
 }
