@@ -14,6 +14,9 @@ namespace Application
         {
             int stockCount = await _stockDataContext.GetStock(productId);
 
+            if (stockCount == 0)
+                return 0;
+
             int availableStockCount = stockCount < amountId ? stockCount : amountId;
 
             await _stockDataContext.DecreaseStock(productId, availableStockCount);

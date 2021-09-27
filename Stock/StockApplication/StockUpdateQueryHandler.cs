@@ -24,9 +24,14 @@ namespace Application
 
             var response = new StockUpdateQueryResponse { AvailableStockCount = updatedStockCount };
 
-            if (updatedStockCount < request.Amount)
+            if (updatedStockCount == 0) //In case we have zero products in stock.
             {
-                response.Message = $"Customer requested {request.Amount} number of products but we have only {updatedStockCount} number of products in our stock.";
+                response.Message = StockConstants.NoStockMessage;
+                return response;
+            }
+            else if (updatedStockCount < request.Amount) //In case we have products in stock but not as much as requested.
+            {
+                response.Message = string.Format(StockConstants.NotEnoughStockMessage, request.Amount, updatedStockCount);
                 request.Amount = updatedStockCount;
             }
 

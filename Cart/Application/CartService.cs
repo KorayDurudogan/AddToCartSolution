@@ -35,10 +35,13 @@ namespace Application
 
             var stockResponse = await _stockService.Call(addCartDto, token);
 
-            var cartDao = _mapper.Map<CartDao>(addCartDto);
-            cartDao.Amount = stockResponse.AvailableStockCount;
+            if (stockResponse.AvailableStockCount > 0)
+            {
+                var cartDao = _mapper.Map<CartDao>(addCartDto);
+                cartDao.Amount = stockResponse.AvailableStockCount;
 
-            await _cartDataContext.Add(cartDao);
+                await _cartDataContext.Add(cartDao);
+            }
 
             return stockResponse;
         }
