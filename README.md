@@ -16,3 +16,17 @@ Some features of the solution ✨
 ## What could be better ? 💡
 
 Handling the event sourcing pattern with a queue system (rabbitmq or kafka) would be great since stock events are suitable for being eventually consistent, but I didn't take this path since it would add a big, third party component in the system.
+
+## Diagrams 📸
+
+*High-Level Diagram of Solution*
+
+![addtocart](https://user-images.githubusercontent.com/47561392/134829457-29baf3e3-1a17-4f8d-b3d8-b25777fc1178.png)
+
+*Low-Level Diagram of CartAPI*
+
+![Screenshot_2](https://user-images.githubusercontent.com/47561392/134829492-789d2711-a264-4ab6-bcae-fb83a2abce03.png)
+
+*Low-Level Diagram of StockAPI*
+
+![Screenshot_3](https://user-images.githubusercontent.com/47561392/134829516-201a2263-499c-4012-8e85-eed142a67099.png)
