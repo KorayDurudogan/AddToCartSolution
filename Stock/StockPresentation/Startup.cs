@@ -45,9 +45,9 @@ namespace StockPresentation
                     ValidateAudience = true,
                     ValidateLifetime = true,
                     ValidateIssuerSigningKey = true,
-                    ValidIssuer = Configuration.GetSection("Jwt:Issuer").Value,
-                    ValidAudience = Configuration.GetSection("Jwt:Key").Value,
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration.GetSection("Jwt:SigningKey").Value))
+                    ValidIssuer = Configuration.GetSection(StockConstants.TokenIssuer).Value,
+                    ValidAudience = Configuration.GetSection(StockConstants.TokenKey).Value,
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(Configuration.GetSection(StockConstants.TokenSigningKey).Value))
                 };
             });
 

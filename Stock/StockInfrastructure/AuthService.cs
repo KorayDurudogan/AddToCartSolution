@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Domain;
+using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using System;
 using System.IdentityModel.Tokens.Jwt;
@@ -18,16 +19,16 @@ namespace Infrastructure
             if (string.IsNullOrWhiteSpace(password))
                 throw new ArgumentNullException();
 
-            else if (!password.Equals(_configuration.GetSection("Jwt:TokenPassword").Value))
+            else if (!password.Equals(_configuration.GetSection(StockConstants.TokenPassword).Value))
                 throw new UnauthorizedAccessException();
 
             var token = new JwtSecurityToken
             (
-                issuer: _configuration.GetSection("Jwt:Issuer").Value,
-                audience: _configuration.GetSection("Jwt:Key").Value,
+                issuer: _configuration.GetSection(StockConstants.TokenIssuer).Value,
+                audience: _configuration.GetSection(StockConstants.TokenKey).Value,
                 expires: DateTime.UtcNow.AddDays(1),
                 notBefore: DateTime.UtcNow,
-                signingCredentials: new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration.GetSection("Jwt:SigningKey").Value)),
+                signingCredentials: new SigningCredentials(new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration.GetSection(StockConstants.TokenSigningKey).Value)),
                     SecurityAlgorithms.HmacSha256)
             );
 

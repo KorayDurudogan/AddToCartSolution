@@ -1,4 +1,5 @@
-﻿using Infrastructure.DaoModels;
+﻿using Domain;
+using Infrastructure.DaoModels;
 using Microsoft.AspNetCore.Hosting;
 using Newtonsoft.Json;
 using System.Collections.Generic;
@@ -15,7 +16,7 @@ namespace Infrastructure.DataSourceContext
 
         public StockEventDataContext(IWebHostEnvironment hostingEnvironment)
         {
-            stockEventFilePath = Path.Combine(hostingEnvironment.ContentRootPath, "StockEvent.json");
+            stockEventFilePath = Path.Combine(hostingEnvironment.ContentRootPath, StockConstants.StockEventFileName);
             string jsonData = File.ReadAllText(stockEventFilePath);
             stockEventList = JsonConvert.DeserializeObject<List<StockEventDao>>(jsonData) ?? new List<StockEventDao>();
         }

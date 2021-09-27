@@ -37,7 +37,7 @@ namespace Infrastructure.Auth
                 if (tokenHttpResponse.IsSuccessStatusCode)
                     _token = await tokenHttpResponse.Content.ReadAsStringAsync();
                 else
-                    throw new Exception("Couldn't get token from StockAPI !");
+                    throw new Exception(CartConstants.TokenErrorMessage);
             }
 
             return _token;

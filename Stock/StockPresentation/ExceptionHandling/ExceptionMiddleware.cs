@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Domain;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Net;
@@ -43,7 +44,7 @@ namespace Presentation.ExceptionHandling
             await context.Response.WriteAsync(new ErrorResultModel()
             {
                 StatusCode = context.Response.StatusCode,
-                Message = "Something get wrong ! Please try again later."
+                Message = StockConstants.InternalServerErrorResponseMessage
             }.ToString());
         }
 
@@ -53,6 +54,11 @@ namespace Presentation.ExceptionHandling
 
             context.Response.ContentType = "application/json";
             context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
+            await context.Response.WriteAsync(new ErrorResultModel()
+            {
+                StatusCode = context.Response.StatusCode,
+                Message = StockConstants.BadRequestResponseMessage
+            }.ToString());
         }
 
 

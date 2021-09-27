@@ -1,4 +1,5 @@
-﻿using Infrastructure.DaoModels;
+﻿using Domain;
+using Infrastructure.DaoModels;
 using Microsoft.AspNetCore.Hosting;
 using Newtonsoft.Json;
 using System.Collections.Generic;
@@ -10,6 +11,7 @@ namespace Infrastructure.DataSourceContext
 {
     public class StockDataContext : IStockDataContext
     {
+        //I am locking stock manipulation since there is a race condition risk.
         object locker = new object();
 
         List<StockDao> stockList;
@@ -18,7 +20,7 @@ namespace Infrastructure.DataSourceContext
 
         public StockDataContext(IWebHostEnvironment hostingEnvironment)
         {
-            stockFilePath = Path.Combine(hostingEnvironment.ContentRootPath, "Stock.json");
+            stockFilePath = Path.Combine(hostingEnvironment.ContentRootPath, StockConstants.StockFileName);
             string jsonData = File.ReadAllText(stockFilePath);
             stockList = JsonConvert.DeserializeObject<List<StockDao>>(jsonData) ?? new List<StockDao>();
         }
@@ -43,7 +45,7 @@ namespace Infrastructure.DataSourceContext
             if (stock != null)
                 return Task.FromResult(stock.Amount);
 
-            throw new KeyNotFoundException("Stock info could not found !");
+            throw new KeyNotFoundException(StockConstants.StockInfoNotReceivedErrorMessage);
         }
     }
 }

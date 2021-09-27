@@ -1,4 +1,5 @@
-﻿using Infrastructure.Models;
+﻿using Domain;
+using Infrastructure.Models;
 using Microsoft.AspNetCore.Hosting;
 using Newtonsoft.Json;
 using System.Collections.Generic;
@@ -16,7 +17,7 @@ namespace Infrastructure.DataSourceContext
 
         public CartDataContext(IWebHostEnvironment hostingEnvironment)
         {
-            cartItemFilePath = Path.Combine(hostingEnvironment.ContentRootPath, "CartItem.json");
+            cartItemFilePath = Path.Combine(hostingEnvironment.ContentRootPath, CartConstants.CartItemFileName);
             string jsonData = File.ReadAllText(cartItemFilePath);
             cartItemList = JsonConvert.DeserializeObject<List<CartDao>>(jsonData) ?? new List<CartDao>();
         }

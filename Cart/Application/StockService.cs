@@ -30,12 +30,11 @@ namespace Application
                new StringContent(JsonConvert.SerializeObject(addCartDto), Encoding.UTF8, "application/json"));
 
             string tokenResponseContent = await stockHttpResponse.Content.ReadAsStringAsync();
+         
             if (stockHttpResponse.IsSuccessStatusCode)
-            {
                 return JsonConvert.DeserializeObject<AddCartResponseDto>(tokenResponseContent);
-            }
-
-            throw new Exception($"An error occured while calling StockAPI. HttpResponse:{tokenResponseContent}");
+         
+            throw new Exception(string.Format(CartConstants.ApiCallErrorMessage, tokenResponseContent));
         }
     }
 }
