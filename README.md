@@ -12,6 +12,7 @@ Some features of the solution ✨
 * StockAPI has access for two data sources (Stock.json & StockEvent.json), so I seperated two access transactions via CQRS & Mediator patterns. MediatR lib has been used.
 * Healthcheck of APIs can be checked with _/hc_ path.
 * APIs have swagger documentation.
+* Both APIs recording their logs under Logs/log.txt file via SeriLog.
 
 ## What could be better ? 💡
 
