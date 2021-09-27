@@ -10,9 +10,9 @@ Some features of the solution ✨
 * APIs have been developed according to DDD layer architecture (for more info: http://dddsample.sourceforge.net/architecture.html)
 * StockAPI uses Event Sourcing pattern for holding the history of stock events. (for more info: https://martinfowler.com/eaaDev/EventSourcing.html#:~:text=The%20fundamental%20idea%20of%20Event,as%20the%20application%20state%20itself.)
 * StockAPI has access for two data sources (Stock.json & StockEvent.json), so I seperated two access transactions via CQRS & Mediator patterns. MediatR lib has been used.
-* Healthcheck of APIs can be checked with _/hc_ path.
+* Healthcheck of APIs can be accessed with _/hc_ path.
 * APIs have swagger documentation.
-* Both APIs recording their logs under Logs/log.txt file via SeriLog.
+* Both APIs recording their logs under Logs/log.txt file, via SeriLog.
 * Both APIs contain unit tests. xUnit lib has been used.
 
 ## What could be better ? 💡
