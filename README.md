@@ -13,6 +13,7 @@ Some features of the solution ✨
 * Healthcheck of APIs can be checked with _/hc_ path.
 * APIs have swagger documentation.
 * Both APIs recording their logs under Logs/log.txt file via SeriLog.
+* Both APIs contain unit tests. xUnit lib has been used.
 
 ## What could be better ? 💡
 
