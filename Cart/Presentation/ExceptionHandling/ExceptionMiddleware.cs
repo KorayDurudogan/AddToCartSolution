@@ -1,6 +1,7 @@
 ﻿using Domain;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 using System;
 using System.Net;
 using System.Threading.Tasks;
@@ -41,11 +42,13 @@ namespace Presentation.ExceptionHandling
 
             context.Response.ContentType = "application/json";
             context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
-            await context.Response.WriteAsync(new ErrorResultModel()
+            var response = new ErrorResultModel()
             {
                 StatusCode = context.Response.StatusCode,
                 Message = CartConstants.InternalServerErrorResponseMessage
-            }.ToString());
+            };
+
+            await context.Response.WriteAsync(JsonConvert.SerializeObject(response));
         }
 
         private async Task HandleArgumentNullExceptionAsync(HttpContext context, ArgumentNullException exception)
@@ -54,11 +57,13 @@ namespace Presentation.ExceptionHandling
 
             context.Response.ContentType = "application/json";
             context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
-            await context.Response.WriteAsync(new ErrorResultModel()
+            var response = new ErrorResultModel()
             {
                 StatusCode = context.Response.StatusCode,
                 Message = CartConstants.BadRequestResponseMessage
-            }.ToString());
+            };
+
+            await context.Response.WriteAsync(JsonConvert.SerializeObject(response));
         }
     }
 }
