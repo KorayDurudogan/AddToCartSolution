@@ -28,7 +28,7 @@ namespace Application
 
         public async Task<AddCartResponseDto> AddToCart(AddCartRequest addCartDto)
         {
-            if (addCartDto.Amount == 0 || addCartDto.CustomerId == 0 || addCartDto.ProductId == 0)
+            if (addCartDto == null || addCartDto.Amount == 0 || addCartDto.CustomerId == 0 || addCartDto.ProductId == 0)
                 throw new ArgumentNullException();
 
             string token = await _tokenProvider.GetToken();
